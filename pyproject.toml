@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "my personal ai project"
+version = "0.1.0"
+description = "In progress..."
+authors = ["Angel Lugo Tehuitzil <termopit@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+unstructured-client = "^0.23.8"
+python-dotenv = "^1.0.1"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.22.0"
+google-generativeai = "^0.7.2"
+pinecone-client = "^5.0.0"
+gradio = "^4.40.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
